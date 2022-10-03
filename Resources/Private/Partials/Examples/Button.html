@@ -1,0 +1,39 @@
+<f:if condition="{size} == ''">
+    <f:variable name="size">medium</f:variable>
+</f:if>
+
+<f:variable name="className">storybook-button storybook-button--{size}</f:variable>
+
+<f:if condition="{primary}">
+    <f:then>
+        <f:variable name="className">{className} storybook-button--primary</f:variable>
+    </f:then>
+    <f:else>
+        <f:variable name="className">{className} storybook-button--secondary</f:variable>
+    </f:else>
+</f:if>
+
+
+<f:if condition="{backgroundColor}">
+    <f:variable name="style">background-color: {backgroundColor};</f:variable>
+</f:if>
+
+
+<button
+    id ="abc"
+    type="button"
+    class="{className}"
+    style="{style}"
+>{label}</button>
+
+<script>
+    (() => {
+        const button = document.querySelector('#abc');
+
+        button.addEventListener('click', foo)
+    })();
+</script>
+
+<f:section name="Foo">
+    Button Foo
+</f:section>

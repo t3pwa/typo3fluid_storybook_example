@@ -1,0 +1,9 @@
+plugin {
+  tx_typo3fluid_storybook_example {
+    view {
+      templateRootPath = EXT:typo3fluid_storybook_example/Resources/Private/Templates/
+      partialRootPath = EXT:typo3fluid_storybook_example/Resources/Private/Partials/
+      layoutRootPath = EXT:typo3fluid_storybook_example/Resources/Private/Layouts/
+    }
+  }
+}

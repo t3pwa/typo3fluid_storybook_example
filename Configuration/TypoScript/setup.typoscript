@@ -1,0 +1,8 @@
+plugin.tx_typo3fluid_storybook_example {
+	view {
+		templateRootPath = {$plugin.tx_typo3fluid_storybook_example.view.templateRootPath}
+		// templateRootPaths.0 = {$plugin.tx_typo3fluid_storybook_example.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_typo3fluid_storybook_example.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_typo3fluid_storybook_example.view.layoutRootPath}
+	}
+}
