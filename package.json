@@ -22,6 +22,6 @@
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
-    "storybook-typo3fluid": "0.1.0"
+    "storybook-typo3fluid": "^0.2.0"
   }
 }
