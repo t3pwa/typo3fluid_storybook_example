@@ -16,7 +16,7 @@
 	],
 	"require": {
 		"typo3/cms-core": "^11.5",
-		"philip-hartmann/typo3fluid-api": "^0.2"
+		"philip-hartmann/typo3fluid-api": "dev-main"
 	},
 	"extra": {
 		"typo3/cms": {
